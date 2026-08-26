@@ -16,7 +16,7 @@ test.describe('Home Page test Suite', () => {
         await expect(page).toHaveTitle('Practice E-Commerce Site – SDET Unicorns');
     });
 
-    test('Go to Home Page and Verify Url', async ({ page }) => {
+    test('Go to Home Page & Verify Url', async ({ page }) => {
         await homePage.navigate();
 
         await expect(page).toHaveURL('https://practice.sdetunicorns.com/');

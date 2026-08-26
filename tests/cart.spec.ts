@@ -1,5 +1,4 @@
-    import { test, expect } from '@playwright/test';
-    import { HomePage } from '../pages/HomePage';
+    import { test, expect } from '@playwright/test'; 
 
 
 test.describe('Cart Page test Suite', () => {
